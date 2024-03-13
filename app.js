@@ -83,19 +83,29 @@ console.log(sentence);
 var devices = ['keyboard' , 'mouse' , 'printer' , 'monitor'];
 document.write("<br>" + "Devices: " + devices + "<br>");
 for (let i = 0; i < devices.length; i++) {
-  document.write("<br>" + "Out" + "<br>" + devices[i]);
+  document.write("<br>" + "Out" + "<br>" + devices[i]+ "<br>");
    
 }
 
 
 
 var devices = ['keyboard' , 'mouse' , 'printer' , 'monitor'];
-// document.write("<br>" + "Devices: " + devices + "<br>");
-// for (let i = devices.length-1; i >= 0; i++) {
-//   document.write("<br>" + "Out" + "<br>" + devices[i]);
+document.write("<br>" + "Devices: " + devices + "<br>");
+for (let i = devices.length-1; i >= 0; i--) {
+  document.write("<br>" + "Out" + "<br>" + devices[i] + "<br>" + "<br>" + "<br>");
    
-// }
+}
 
 
+
+var phoneManufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+document.write("<select>");
+
+for (var i = 0; i < phoneManufacturers.length; i++) {
+    document.write("<br>" + "<option>" + phoneManufacturers[i]  + "</option>" +  "<br>");
+}
+
+document.write("</select>");
 
 
