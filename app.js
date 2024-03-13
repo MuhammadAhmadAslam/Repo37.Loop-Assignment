@@ -47,5 +47,55 @@ document.write("These are newly updated color names: " + colorName , "<br>");
 
 
 
+// // var studentScore = [12 , 15 , 1 , 9 , 24  , 12  , 18 , 11 , 3 , 5];
+// var studentScore = [12, 15, 1, 9, 24, 12, 18, 11, 3, 5];
+
+// // Sorting the array in ascending order using a bubble sort algorithm
+// for (var i = 0; i < studentScore.length - 1; i++) {
+//   for (var j = 0; j < studentScore.length - i - 1; j++) {
+//     if (studentScore[j] > studentScore[j + 1]) {
+//       // Swap elements
+//       var temp = studentScore[j];
+//       studentScore[j] = studentScore[j + 1];
+//       studentScore[j + 1] = temp;
+//     }
+//   }
+// }
+
+// console.log("Sorted student scores in ascending order:", studentScore);
+
+
+
+var cities = ['karachi','islamabad' , 'lahore' , 'quetta' , 'rawalpindi' , 'multan' ]
+document.write("Cities List " + "<br>" + cities + "<br>");
+var selectedCities = cities.slice(3,6);
+document.write("Selected Cities: " + "<br>" + selectedCities);
+console.log(selectedCities + "<br>");
+
+
+
+
+var sentence = ["This " + "is " + "my " + "cat "];
+console.log(sentence);
+
+
+
+var devices = ['keyboard' , 'mouse' , 'printer' , 'monitor'];
+document.write("<br>" + "Devices: " + devices + "<br>");
+for (let i = 0; i < devices.length; i++) {
+  document.write("<br>" + "Out" + "<br>" + devices[i]);
+   
+}
+
+
+
+var devices = ['keyboard' , 'mouse' , 'printer' , 'monitor'];
+// document.write("<br>" + "Devices: " + devices + "<br>");
+// for (let i = devices.length-1; i >= 0; i++) {
+//   document.write("<br>" + "Out" + "<br>" + devices[i]);
+   
+// }
+
+
 
 
